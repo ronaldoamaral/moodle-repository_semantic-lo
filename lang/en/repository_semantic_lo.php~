@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Strings for Semantic_LO repository plugin
+ *
+ * @copyright 2010 Enovation Solutions http://www.enovation.ie
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+ 
+defined('MOODLE_INTERNAL') || die(); 
+
+$string['semantic_lo:view'] = 'View semantic_lo repository';
+$string['pluginname'] = 'Semantic Learning Object repository';
+$string['configplugin'] = 'Semantic Learning Object repository configuration';
+$string['semantic_lo_url'] = 'Semantic LO REST URL';
+$string['sesame_server'] = 'Sesame Server REST URL';
+$string['semantic_lourlinfo'] = 'A base URL to target semantic_lo installation (e.g. https://localhost:8080)';

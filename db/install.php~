@@ -1,0 +1,12 @@
+<?php
+
+function xmldb_repository_mediawiki_install() {
+    global $CFG;
+    $result = true;
+    require_once($CFG->dirroot.'/repository/lib.php');
+    $mediawikiplugin = new repository_type('mediawiki', array(), true);
+    if (!$id = $mediawikiplugin->create(true)) {
+        $result = false;
+    }
+    return $result;
+}
