@@ -125,7 +125,7 @@ class repository_semantic_lo extends repository {
         $results_objects_list = $results['results']['bindings'];
 
         foreach ($results_objects_list as $entry) {
-            $source = $entry['subject']['value']; // Pegando URI do Objeto
+            $source = $entry['identifier']['value']; 
             $title = $entry['title']['value'];
             $description = '';
             if (empty($description)) {
